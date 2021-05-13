@@ -9,9 +9,7 @@ class Test(unittest.TestCase):
 
         driver.get("http://practice.automationtesting.in/")
         title = driver.title
-        # print(get_title)
+        print(title)
         self.assertTrue(title == "Automation Practice Site")
 if __name__ == "__main__":
     unittest.main()
-
-# driver.close()
